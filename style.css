@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6fff2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile-card {
+    background-color: #fff;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.call-btn,
+.message-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.call-btn:hover,
+.message-btn:hover {
+    background-color: #555;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info .item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.contact-info .item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.contact-info span {
+    color: #333;
+}
